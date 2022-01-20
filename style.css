@@ -1,0 +1,234 @@
+.nav-link {
+  padding: 0px 0px !important;
+  margin: 0px 20px !important;
+}
+.nav-link:focus {
+  text-decoration: underline;
+}
+
+.pad-nav {
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.pad-nav li {
+  margin: 5px 0px;
+}
+
+.typewriter p {
+  color: #000;
+  font-size: 20pxem;
+  width: 0;
+  max-width: max-content;
+  overflow: hidden;
+  border-right: 0.05em solid #464545; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0px auto; /* Gives that scrolling effect as the typing happens */
+  text-align: center;
+}
+
+.typing-erase {
+  animation: 4s typing-erase 4s steps(50, end) infinite,
+    blink-caret 0.5s step-end infinite;
+}
+
+/* The type and erase effect */
+@keyframes typing-erase {
+  0% {
+    width: 0;
+  }
+  80% {
+    width: 100%;
+  }
+  90%,
+  100% {
+    width: 0;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: gray;
+  }
+}
+
+.tech-stack {
+  margin: 60px 0px;
+}
+
+@media screen and (max-width: 776px) {
+  .pad-nav {
+    padding: 10px 20px;
+  }
+  .pad-nav ul {
+    justify-content: center;
+    align-items: center;
+  }
+  .pad-nav li {
+    margin: 5px 0px;
+  }
+  .about-content {
+    padding-top: 1rem !important;
+  }
+  .tech-stack {
+    margin: 20px 0px;
+  }
+
+  .tech-stack .container {
+    padding: 20px 10px !important;
+  }
+
+  .project-title {
+    padding-top: 20px !important;
+  }
+
+  .project-card .card__footer h3 {
+    padding: 20px;
+    font-size: 18px !important;
+  }
+}
+.stack-img-container {
+  padding: 0px 40px;
+}
+
+.stack-img-container img {
+  margin: 5px 10px;
+}
+
+.category__center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.503);
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.544);
+}
+
+.project-card:hover {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.789);
+}
+.project-card .card__header {
+  width: 100%;
+  height: auto;
+}
+
+.project-card .card__header img {
+  padding: 2px;
+  width: 100%;
+  height: 160px;
+}
+
+.project-card .card__footer h3 {
+  padding: 20px;
+  font-size: 22px;
+}
+.project-card .card__footer a button {
+  border-radius: 2px;
+  border-color: rgba(0, 0, 0, 0.442);
+  box-shadow: 1px 1px 3px black;
+  margin: 2px 5px;
+  padding: 5px;
+}
+
+.project-card .card__footer a button span {
+  margin-left: 2px;
+  padding: 2px;
+  font-weight: bold;
+}
+.project-card .card__footer a i {
+  transition: all 0.5s ease;
+  padding: 5px;
+}
+
+.project-card .card__footer a:hover i {
+  transform: scale(1.5) rotate(360deg);
+  color: #dc3545;
+}
+
+#view-all-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.view-btn {
+  font-size: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.789);
+  max-width: fit-content;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-btn:hover {
+  border: 2px solid #dc3545;
+  background-color: #dc3545;
+  color: white;
+}
+#viewme2 {
+  display: none;
+}
+
+.social-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.social-container a:hover i {
+  background-color: #dc3545;
+}
+
+.social-container a i {
+  padding: 10px;
+  border-radius: 40%;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.pulsate-fwd {
+  -webkit-animation: pulsate-fwd 1s ease-in-out infinite both;
+  animation: pulsate-fwd 1s ease-in-out infinite both;
+}
+
+@-webkit-keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}

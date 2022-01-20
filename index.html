@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Pritesh Kiri</title>
+    <style>
+      .scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+
+      .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, 0.55);
+        border-color: rgba(0, 0, 0, 0) !important;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-light"
+      style="
+        background-color: white;
+        box-shadow: 1px 0px 12px rgba(0, 0, 0, 0.673);
+      "
+    >
+      <div class="container pad-nav">
+        <a class="navbar-brand fw-bold" href="#">Pritesh Kiri</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon ml-2"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse flex-grow-0 p-2"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active fw-bold"
+                id="about"
+                aria-current="page"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active fw-bold"
+                id="skills"
+                aria-current="page"
+                href="#"
+                >Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active fw-bold"
+                id="projects"
+                aria-current="page"
+                href="#"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active fw-bold"
+                id="contact"
+                aria-current="page"
+                href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row text-center align-items-center" style="padding-top: 75px">
+        <div class="col-12 col-md-6" id="about-top">
+          <img
+            class="img-fluid"
+            src="picc.jpg"
+            style="
+              border-radius: 255px;
+              width: 300px;
+              height: 300px;
+              margin-top: 30px;
+            "
+            alt=""
+          />
+        </div>
+        <div class="col-12 col-md-6 pt-5 about-content">
+          <div class="fw-light typewriter" style="font-size: 50px">
+            Hi, I am
+
+            <p class="typing-erase text-danger">Pritesh Kiri</p>
+          </div>
+          <h5
+            class="fw-light"
+            style="text-align: justify; padding: 15px; padding-top: 20px"
+          >
+            I am a freelancer form India developing robust code for businesses.
+            Proficient in HTML, CSS, and JavaScript; plus modern libraries and
+            frameworks. I am skilled in designing and developing multiple
+            web-based applications incorporating a range of technologies with
+            strong technical skills to excel as a Front-End Developer.
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-100 tech-stack">
+      <div class="container text-center p-5">
+        <h1 class="fw-light">
+          <i class="fas fa-code fa-spin" style="color: rgba(0, 0, 0, 0.8)"></i>
+          <span class="text-danger">Technology</span> Stack
+        </h1>
+        <h4 class="fw-light">I design, deliver and develop these weapons</h4>
+      </div>
+
+      <div class="stack-img-container">
+        <div class="d-flex justify-content-around py-3" style="flex-wrap: wrap">
+          <div>
+            <img
+              class="img-fluid"
+              style="width: 100px; height: 100px"
+              src="./html.png"
+              alt=""
+            />
+            <div class="text-center">
+              <span class="text-danger">★</span>
+              <span class="text-danger">★</span>
+              <span class="text-danger">★</span>
+              <span class="text-danger">★</span>
+              <span class="">★</span>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="img-fluid"
+              style="width: 80px; height: 100px"
+              src="./css.png"
+              alt=""
+            />
+            <div class="text-center">
+              <span class="text-danger">★</span>
+              <span class="text-danger">★</span>
+              <span class="text-danger">★</span>
+              <span class="text-danger">★</span>
+              <span class="">★</span>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="img-fluid"
+              style="width: 100px; height: 100px"
+              src="./js.jpg"
+              alt=""
+            />
+            <div class="text-center">
+              <span class="text-danger">★</span>
+              <span class="text-danger">★</span>
+              <span class="text-danger">★</span>
+              <span class="">★</span>
+              <span class="">★</span>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="img-fluid"
+              style="width: 100px; height: 100px"
+              src="./bootstrap.png"
+              alt=""
+            />
+            <div class="text-center">
+              <span class="text-danger">★</span>
+              <span class="text-danger">★</span>
+              <span class="text-danger">★</span>
+              <span class="text-danger">★</span>
+              <span class="">★</span>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-around py-3" style="flex-wrap: wrap">
+          <div>
+            <img
+              class="img-fluid"
+              style="width: 140px; height: 100px"
+              src="./react.png"
+              alt=""
+            />
+            <div class="text-center">
+              <span class="text-danger">★</span>
+              <span class="text-danger">★</span>
+              <span class="">★</span>
+              <span class="">★</span>
+              <span class="">★</span>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class=""
+              style="width: 100px; height: 100px"
+              src="./mysql.png"
+              alt=""
+            />
+            <div class="text-center">
+              <span class="text-danger">★</span>
+              <span class="text-danger">★</span>
+              <span class="">★</span>
+              <span class="">★</span>
+              <span class="">★</span>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="img-fluid"
+              style="width: 100px; height: 100px"
+              src="./python.jpg"
+              alt=""
+            />
+            <div class="text-center">
+              <span class="text-danger">★</span>
+              <span class="text-danger">★</span>
+              <span class="text-danger">★</span>
+              <span class="">★</span>
+              <span class="">★</span>
+            </div>
+          </div>
+
+          <!-- <div>
+          <img
+            class="rounded-circle"
+            style="width: 100px; height: 100px"
+            src="./flask.jpg"
+            alt=""
+          />
+          <div class="text-center">
+            <span class="text-danger">★</span>
+            <span class="">★</span>
+            <span class="">★</span>
+          </div>
+        </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="w-100">
+      <div class="container text-center p-5 project-title">
+        <h1 class="fw-light">
+          <i class="fas fa-cog fa-spin" style="color: rgba(0, 0, 0, 0.8)"></i>
+          My
+          <span class="text-danger">Projects</span>
+        </h1>
+        <h4 class="fw-light">I build products. Just like this website</h4>
+        <div class="card-container">
+          <div
+            class="category__container"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <div class="category__center"></div>
+          </div>
+          <div id="view-all-btn">
+            <h2 class="view-btn view-num" id="viewme" data-id="view-all-8">
+              View All
+            </h2>
+            <h2 class="view-btn view-num" id="viewme2" data-id="view-all-8">
+              View Less
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="contact-top">
+        <div
+          class="text-center p-5"
+          style="color: white; background-color: rgba(0, 0, 0, 0.9)"
+        >
+          <div class="p-2"><h3>Intrested in working with me ?</h3></div>
+          <a class="p-2" href="mailto:pritesh.d.kiri@gmail.com">
+            <button
+              type="button"
+              class="btn btn-outline-light pulsate-fwd"
+              mailto
+            >
+              Let's talk
+            </button>
+          </a>
+
+          <div
+            class="text-center p-2"
+            style="color: white; background-color: rgba(0, 0, 0, 0)"
+          >
+            <div class="text-justify py-5">
+              <p>
+                Do you have a project in mind and would love to bring it to
+                live? Then contact me, let us work together to create something
+                beautiful.
+              </p>
+            </div>
+
+            <div class="py-2">
+              <h3 class="">Contact me</h3>
+            </div>
+            <div
+              class="social-container"
+              style="
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+              "
+            >
+              <a href="https://www.instagram.com/i_m_preeky/"
+                ><i class="fab fa-instagram h3"></i
+              ></a>
+              <a href="https://github.com/PriteshKiri"
+                ><i class="fab fa-github-square h3"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/pritesh-kiri-31670a154/"
+                ><i class="fab fa-linkedin h3"></i
+              ></a>
+              <a href="mailto:pritesh.d.kiri@gmail.com"
+                ><i class="fas fa-envelope h3"></i
+              ></a>
+            </div>
+          </div>
+
+          <div
+            class="row text-center p-2 text-muted"
+            style="background-color: rgba(0, 0, 0, 0)"
+          >
+            <h6>All rights reserved. Pritesh Kiri</h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="./products.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
