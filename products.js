@@ -28,7 +28,7 @@ const displayProductItems = (items) => {
     (product) => ` 
                   
 
-                  <div class="project-card">
+                  <div class="project-card" data-aos="zoom-out-up"  data-aos-duration="2000">
                     <div class="card__header">
                       <img src=${product.image} alt="product">
                     </div>
@@ -77,7 +77,7 @@ viewBtn2.addEventListener("click", async function () {
 const displayAllProductItems = (items) => {
   let displayAllProduct = items.map(
     (product) => `
-    <div class="project-card">
+    <div class="project-card data-aos="zoom-out-up" data-aos-duration="2000">
     <div class="card__header">
       <img src=${product.image} alt="product">
     </div>
