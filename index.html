@@ -22,6 +22,8 @@
 
     <link rel="stylesheet" href="./style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Pritesh Kiri</title>
     <style>
       .scrollbar::-webkit-scrollbar {
@@ -35,6 +37,9 @@
     </style>
   </head>
   <body>
+    <script>
+      AOS.init();
+    </script>
     <nav
       class="navbar navbar-expand-lg fixed-top navbar-light"
       style="
@@ -64,7 +69,7 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a
-                class="nav-link active fw-bold"
+                class="nav-link fw-bold hvr-bounce-to-right"
                 id="about"
                 aria-current="page"
                 href="#"
@@ -73,7 +78,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active fw-bold"
+                class="nav-link fw-bold hvr-bounce-to-right"
                 id="skills"
                 aria-current="page"
                 href="#"
@@ -82,7 +87,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active fw-bold"
+                class="nav-link fw-bold hvr-bounce-to-right"
                 id="projects"
                 aria-current="page"
                 href="#"
@@ -91,7 +96,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active fw-bold"
+                class="nav-link fw-bold hvr-bounce-to-right"
                 id="contact"
                 aria-current="page"
                 href="#"
@@ -108,6 +113,8 @@
         <div class="col-12 col-md-6" id="about-top">
           <img
             class="img-fluid"
+            data-aos="fade-up"
+            data-aos-duration="2000"
             src="picc.jpg"
             style="
               border-radius: 255px;
@@ -118,7 +125,12 @@
             alt=""
           />
         </div>
-        <div class="col-12 col-md-6 pt-5 about-content">
+        <div
+          class="col-12 col-md-6 pt-5 about-content"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-delay="500"
+        >
           <div class="fw-light typewriter" style="font-size: 50px">
             Hi, I am
 
@@ -128,7 +140,7 @@
             class="fw-light"
             style="text-align: justify; padding: 15px; padding-top: 20px"
           >
-            I am a freelancer from India developing robust code for businesses.
+            I am a freelancer form India developing robust code for businesses.
             Proficient in HTML, CSS, and JavaScript; plus modern libraries and
             frameworks. I am skilled in designing and developing multiple
             web-based applications incorporating a range of technologies with
@@ -139,7 +151,11 @@
     </div>
 
     <div class="w-100 tech-stack">
-      <div class="container text-center p-5">
+      <div
+        class="container text-center p-5"
+        data-aos="fade-down"
+        data-aos-duration="2000"
+      >
         <h1 class="fw-light">
           <i class="fas fa-code fa-spin" style="color: rgba(0, 0, 0, 0.8)"></i>
           <span class="text-danger">Technology</span> Stack
@@ -148,7 +164,13 @@
       </div>
 
       <div class="stack-img-container">
-        <div class="d-flex justify-content-around py-3" style="flex-wrap: wrap">
+        <div
+          class="d-flex justify-content-around py-3"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          data-aos-delay="500"
+          style="flex-wrap: wrap"
+        >
           <div>
             <img
               class="img-fluid"
@@ -156,13 +178,6 @@
               src="./html.png"
               alt=""
             />
-            <div class="text-center">
-              <span class="text-danger">★</span>
-              <span class="text-danger">★</span>
-              <span class="text-danger">★</span>
-              <span class="text-danger">★</span>
-              <span class="">★</span>
-            </div>
           </div>
 
           <div>
@@ -172,13 +187,6 @@
               src="./css.png"
               alt=""
             />
-            <div class="text-center">
-              <span class="text-danger">★</span>
-              <span class="text-danger">★</span>
-              <span class="text-danger">★</span>
-              <span class="text-danger">★</span>
-              <span class="">★</span>
-            </div>
           </div>
 
           <div>
@@ -188,13 +196,6 @@
               src="./js.jpg"
               alt=""
             />
-            <div class="text-center">
-              <span class="text-danger">★</span>
-              <span class="text-danger">★</span>
-              <span class="text-danger">★</span>
-              <span class="">★</span>
-              <span class="">★</span>
-            </div>
           </div>
 
           <div>
@@ -204,16 +205,15 @@
               src="./bootstrap.png"
               alt=""
             />
-            <div class="text-center">
-              <span class="text-danger">★</span>
-              <span class="text-danger">★</span>
-              <span class="text-danger">★</span>
-              <span class="text-danger">★</span>
-              <span class="">★</span>
-            </div>
           </div>
         </div>
-        <div class="d-flex justify-content-around py-3" style="flex-wrap: wrap">
+        <div
+          class="d-flex justify-content-around py-3"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          data-aos-delay="300"
+          style="flex-wrap: wrap"
+        >
           <div>
             <img
               class="img-fluid"
@@ -221,45 +221,24 @@
               src="./react.png"
               alt=""
             />
-            <div class="text-center">
-              <span class="text-danger">★</span>
-              <span class="text-danger">★</span>
-              <span class="">★</span>
-              <span class="">★</span>
-              <span class="">★</span>
-            </div>
           </div>
 
           <div>
             <img
               class=""
-              style="width: 100px; height: 100px"
+              style="width: 140px; height: 140px"
               src="./mysql.png"
               alt=""
             />
-            <div class="text-center">
-              <span class="text-danger">★</span>
-              <span class="text-danger">★</span>
-              <span class="">★</span>
-              <span class="">★</span>
-              <span class="">★</span>
-            </div>
           </div>
 
           <div>
             <img
               class="img-fluid"
-              style="width: 100px; height: 100px"
+              style="width: 90px; height: 90px"
               src="./python.jpg"
               alt=""
             />
-            <div class="text-center">
-              <span class="text-danger">★</span>
-              <span class="text-danger">★</span>
-              <span class="text-danger">★</span>
-              <span class="">★</span>
-              <span class="">★</span>
-            </div>
           </div>
 
           <!-- <div>
@@ -281,18 +260,21 @@
 
     <div class="w-100">
       <div class="container text-center p-5 project-title">
-        <h1 class="fw-light">
+        <h1 class="fw-light" data-aos="zoom-in-down" data-aos-duration="2000">
           <i class="fas fa-cog fa-spin" style="color: rgba(0, 0, 0, 0.8)"></i>
           My
           <span class="text-danger">Projects</span>
         </h1>
-        <h4 class="fw-light">I build products. Just like this website</h4>
+        <h4
+          class="fw-light"
+          data-aos="zoom-in-down"
+          data-aos-duration="2000"
+          data-aos-delay="500"
+        >
+          I build products. Just like this website
+        </h4>
         <div class="card-container">
-          <div
-            class="category__container"
-            data-aos="fade-up"
-            data-aos-duration="1200"
-          >
+          <div class="category__container" data-aos="fade-up">
             <div class="category__center"></div>
           </div>
           <div id="view-all-btn">
@@ -313,7 +295,14 @@
           class="text-center p-5"
           style="color: white; background-color: rgba(0, 0, 0, 0.9)"
         >
-          <div class="p-2"><h3>Intrested in working with me ?</h3></div>
+          <div
+            class="p-2"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-anchor-placement="top-bottom"
+          >
+            <h3>Intrested in working with me ?</h3>
+          </div>
           <a class="p-2" href="mailto:pritesh.d.kiri@gmail.com">
             <button
               type="button"
@@ -328,7 +317,12 @@
             class="text-center p-2"
             style="color: white; background-color: rgba(0, 0, 0, 0)"
           >
-            <div class="text-justify py-5">
+            <div
+              class="text-justify py-5"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="300"
+            >
               <p>
                 Do you have a project in mind and would love to bring it to
                 live? Then contact me, let us work together to create something
@@ -336,7 +330,12 @@
               </p>
             </div>
 
-            <div class="py-2">
+            <div
+              class="py-2"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="500"
+            >
               <h3 class="">Contact me</h3>
             </div>
             <div
@@ -347,16 +346,32 @@
                 justify-content: center;
               "
             >
-              <a href="https://www.instagram.com/i_m_preeky/"
+              <a
+                href="https://www.instagram.com/i_m_preeky/"
+                data-aos="flip-right"
+                data-aos-duration="1500"
+                data-aos-delay="50"
                 ><i class="fab fa-instagram h3"></i
               ></a>
-              <a href="https://github.com/PriteshKiri"
+              <a
+                href="https://github.com/PriteshKiri"
+                data-aos="flip-right"
+                data-aos-duration="1500"
+                data-aos-delay="300"
                 ><i class="fab fa-github-square h3"></i
               ></a>
-              <a href="https://www.linkedin.com/in/pritesh-kiri-31670a154/"
+              <a
+                href="https://www.linkedin.com/in/pritesh-kiri-31670a154/"
+                data-aos="flip-right"
+                data-aos-duration="1500"
+                data-aos-delay="500"
                 ><i class="fab fa-linkedin h3"></i
               ></a>
-              <a href="mailto:pritesh.d.kiri@gmail.com"
+              <a
+                href="mailto:pritesh.d.kiri@gmail.com"
+                data-aos="flip-right"
+                data-aos-duration="1500"
+                data-aos-delay="600"
                 ><i class="fas fa-envelope h3"></i
               ></a>
             </div>
@@ -366,7 +381,7 @@
             class="row text-center p-2 text-muted"
             style="background-color: rgba(0, 0, 0, 0)"
           >
-            <h6>© 2022 Pritesh Kiri</h6>
+            <h6>All rights reserved. Pritesh Kiri</h6>
           </div>
         </div>
       </div>
