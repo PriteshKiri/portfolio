@@ -39,36 +39,44 @@
       "git": "https://github.com/PriteshKiri/calender"
     },
 
-    {
+    
+     {
       "id": 6,
+      "title": "E-stitcher",
+      "image": "https://res.cloudinary.com/ddlhk5yje/image/upload/v1645207185/my%20portfolio/E-stitchery-portfolio_nwuxm9.png",
+      "live": "https://e-stitchery.netlify.app/",
+      "git": "https://github.com/PriteshKiri/E-stitchery"
+    },
+    {
+      "id": 7,
       "title": "Paint app",
       "image": "https://res.cloudinary.com/di3tuzgef/image/upload/v1642683024/ulead/portfolio/paintapp_pzgfa6.png",
       "live": "https://priteshkiri.github.io/Paint-app/",
       "git": "https://github.com/PriteshKiri/Paint-app"
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "Community page",
       "image": "https://res.cloudinary.com/di3tuzgef/image/upload/v1642683025/ulead/portfolio/socialconnect_gnpoub.png",
       "live": "https://socialconnectindia.netlify.app/",
       "git": "https://github.com/PriteshKiri/SocialConnect"
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "Auction website clone",
       "image": "https://res.cloudinary.com/di3tuzgef/image/upload/v1642683024/ulead/portfolio/auction-website_tyy1xz.png",
       "live": "https://priteshkiri.github.io/Auction-website/",
       "git": "https://github.com/PriteshKiri/Auction-website"
     },
     {
-      "id": 9,
+      "id": 10,
       "title": "Background generator",
       "image": "https://res.cloudinary.com/di3tuzgef/image/upload/v1642683026/ulead/portfolio/backgroundgen_lfiduf.png",
       "live": "https://priteshkiri.github.io/User-Input-Background-Generator/",
       "git": "https://github.com/PriteshKiri/User-Input-Background-Generator"
     },
     {
-      "id": 10,
+      "id": 11,
       "title": "Career page clone",
       "image": "https://res.cloudinary.com/di3tuzgef/image/upload/v1642683027/ulead/portfolio/careerlanding-page_gm32hp.png",
       "live": "https://priteshkiri.github.io/Practice-landing-page/",
